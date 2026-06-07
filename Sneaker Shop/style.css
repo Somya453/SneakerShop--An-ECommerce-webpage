@@ -1,0 +1,221 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#logo{
+    color: black;
+    font-size: 3.5rem;
+    font-style: italic;
+ }
+
+ .hamburger-menu {
+    float: right;
+    margin-top: 10px;
+    font-size: 20px;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(222, 175, 88);
+    border: none;
+    display: none; /* Hidden by default */
+  }
+
+  
+    
+  
+
+  
+
+  .container {
+    
+    margin:auto;
+    
+    width: 80.5vw;
+    height: 150vh;
+    margin-top: 130px;
+   
+    position: center;
+    font-size: 1.5rem;
+    padding: 3px;
+    justify-content: center;
+    
+    align-items: center;
+}
+ .navbar{
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+ }
+ .navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: end;
+    padding: 8.5px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 50px;
+    text-transform: capitalize;
+    transition: 0.4s ease-in-out;
+    justify-content: space-between;
+  }
+  
+  
+  i{
+    background-color: #ff5f1f;
+    font-size: smaller;
+    height:3vh;
+    width: 1.2vw;
+    border-radius: 50cm;
+  }
+
+  #i1,#i2{
+    background-color: whitesmoke;
+
+  }
+
+  i:hover{
+    background: #0000003b;
+  }
+  #srch{
+    width: 5vw;
+   
+    border: .5px solid ;
+    padding: 5px;
+    border-radius: 5cm ;
+    
+  }
+ 
+  
+  #btn1{
+    border: hidden;
+    font-size: larger;
+    
+  }
+
+  #btn1:focus{
+    cursor: pointer;
+    
+  }
+
+    
+    
+   #login{
+    height: 6vh;
+    width: 7vw;
+    border-radius: 5cm 5cm 5cm 5cm;
+    color: #ddd;
+    font-size: large;
+    background-color: #ff5f1f;
+    border: hidden;
+
+   }
+
+   #login:hover{
+    cursor: pointer;
+    background: #0000003b;
+    transition: ease ;
+    
+   }
+
+   
+  
+
+  #srch:focus{
+    outline: none;
+  }
+
+
+
+
+
+label.logo{
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+}
+
+
+
+
+
+.navbar a:hover {
+    background-color: #ff5f1f;
+    transition: 0.3s;
+  }
+  
+
+  .nav-links{
+    list-style: none;
+    display: flex;
+  }
+
+  .hamburger-container{
+    position: relative;
+
+  }
+
+  .menu{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background: #ff5f1f;
+    display: none;
+    flex-direction: column;
+    border: 1px solid white;
+    z-index: 100;
+
+  }
+
+
+  img{
+
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    height: 80vh;
+    float: right;
+    flex-wrap: wrap;
+  }
+
+ 
+
+  .btn {
+   
+    margin-right: 120px;
+    cursor: pointer;
+  
+    border-radius: 5cm 5cm 5cm;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 20px;
+    width: 20vw;
+  
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 10px;
+    height: 55px;
+    transition: tranform 0.2s ease;
+    background-color:#000;
+  }
+  .btn:hover {
+    cursor: pointer;
+    color: #ddd;
+    
+   
+    
+  }
+  
